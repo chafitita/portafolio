@@ -1,0 +1,37 @@
+
+.abt-me{
+    display: flex;
+    align-items: flex-start;
+    
+}
+.abt-me img{
+    width: 128px;
+    padding: 25px;
+}
+.contenedor{
+    display: flex;
+}
+section{
+    flex: 1;
+    padding: 20px;
+    border: 1px solid;
+    size-adjust: 332px 392px;
+}
+section ul li{
+    padding: 2px;
+}
+section h1{
+    text-decoration: underline black;
+    margin-left: 15px;
+}
+section.skills{
+    background-image: url(../styles/img/saction-background.png);
+    background-size: cover;
+}
+section.education{
+    background-image: url(../styles/img/saction-background.png);
+    background-size: cover;
+}section.experience{
+    background-image: url(../styles/img/saction-background.png);
+    background-size: cover;
+}
