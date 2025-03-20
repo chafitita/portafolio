@@ -4,9 +4,17 @@
 .color4 {color: #c09067;}
 .color5 {color: #d9c980;}
 
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Lato", sans-serif;
+    color: beige;
 }
 body{
     background-image: url(./img/origbig.png);
@@ -56,11 +64,12 @@ nav ul li a::after{
 }nav ul li a:hover:after{
     width: 100%;
 }
-.header-text{
+.greetings{
     margin-top: 15%;
     font-size: 30px;
+    margin-left: 25px;
 }
-.header-text h1{
+.greetings h1{
     margin-top: 20px;
     font-size: 60px;
 }
