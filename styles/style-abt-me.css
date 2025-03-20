@@ -79,6 +79,7 @@ nav ul li a::after{
 }
 .contenedor .about-text{
     flex: 1;
+    font-size: larger;
 }
 
 /* -----------------------cajistas skills, experience, education -------------*/
