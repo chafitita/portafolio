@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "Lato", sans-serif;
     color: beige;
 }
 body{
@@ -108,6 +107,7 @@ section{
 }
 section ul li{
     padding-top: 10px;
+    padding-left: 10px;
 }
 section ul li p{
     font-size:larger;

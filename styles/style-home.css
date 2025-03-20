@@ -4,16 +4,9 @@
 .color4 {color: #c09067;}
 .color5 {color: #d9c980;}
 
-.lato-regular {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
 *{
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif;
     color: beige;
 }
 body{
@@ -21,7 +14,6 @@ body{
     background-size: cover;
     background-position: top;
 }
-
 header{
     width: 100%;
     height: 25%; 
