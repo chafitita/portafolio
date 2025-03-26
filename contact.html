@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/style-contact.css">
+
+    <title>Contact</title>
+
+    <link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
+    <link rel="shortcut icon" href="icon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+    <link rel="manifest" href="icon/site.webmanifest" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <img src="/img/logod.png" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-me.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <form action="https://formsubmit.co/levrinomateo017@gmail.com" method="POST">
+        <h2>Contact me!</h2>
+        <div class="input-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name">
+
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+        
+            <input class="btn" type="submit" value="Send">
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact.html">
+            <input type="hidden" name="_captcha" value="false">
+        </div>
+    </form>
+    
+</body>
+</html>
