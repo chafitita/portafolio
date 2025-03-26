@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
     color: beige;
@@ -6,38 +6,47 @@ body{
     background-size: cover;
     background-position: top;
 }
-header{
+
+header {
     width: 100%;
     color: beige;
-    height: 25%; 
+    height: 25%;
     background-image: url(/img/origbig.png);
     background-size: cover;
     background-position: top;
+    text-shadow: 2px 4px 2px black;
 }
-.container{
+
+.container {
     padding: 10px 2.5%;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.logo{
+
+.logo {
     width: 120px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
-    list-style: none;;
+    list-style: none;
+    ;
     margin: 10px 30px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: beige;
     font-size: 18px;
     position: relative;
 }
-nav ul li a::after{
+
+nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
@@ -46,31 +55,49 @@ nav ul li a::after{
     left: 0;
     bottom: -6px;
     transition: steps(3) 0.5s;
-}nav ul li a:hover:after{
+}
+
+nav ul li a:hover:after {
     width: 100%;
 }
+
 /* --------------end-header------------------------ */
-body{
-    max-height: 100vh;
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 30px;
 }
-form{
+footer{
+    align-self: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #614132;
+    padding: 5px;
+    gap: 30px;
+}
+a{
+    color: white;
+}
+
+form {
     padding: 50px 55px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    border: 10px  #402522 solid;;
+    border: 10px #402522 solid;
+    ;
     text-align: center;
     width: 340px;
     background-color: #614132;
 }
-h2{
+
+h2 {
     font-size: 35px;
 }
-label{
+
+label {
     text-decoration: underline beige;
     font-size: 20px;
     font-weight: 600;
@@ -78,21 +105,27 @@ label{
     margin-top: 15px;
     text-align: center;
 }
-.input-group{
+
+.input-group {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-input, textarea{
+
+input,
+textarea {
     border-radius: 5px;
     background-color: #d9c980;
-    color:black;
+    color: black;
     outline-color: #402522;
 }
-input::placeholder, textarea::placeholder{
+
+input::placeholder,
+textarea::placeholder {
     color: #614132;
 }
-.btn{
+
+.btn {
     font-size: 16px;
     color: beige;
     border: 0;
@@ -100,19 +133,23 @@ input::placeholder, textarea::placeholder{
     margin-top: 10px;
     cursor: pointer;
 }
-input.btn:hover{
+
+input.btn:hover {
     background-color: antiquewhite;
     color: black;
 }
-@media(max-width: 991px){
-    body{
+
+@media(max-width: 991px) {
+    body {
         padding: 20px;
     }
-    form{
+
+    form {
         padding: 30px 15px;
         width: 100px;
     }
-    input{
+
+    input {
         padding: 15px 10px;
     }
 }

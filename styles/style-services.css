@@ -13,6 +13,7 @@ header {
     background-size: cover;
     background-position: top;
     border-bottom: #614132 15px solid;
+    text-shadow: 2px 4px 2px black;
 }
 
 .container {
@@ -67,20 +68,36 @@ nav ul li a:hover:after {
     margin-top: 20px;
     font-size: 60px;
 }
+
 /* ---------------end-header---------------- */
-.contenedor{
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #614132;
+    padding: 5px;
+    gap: 30px;
+}
+
+a {
+    color: white;
+}
+
+.contenedor {
     padding-top: 25px;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
     flex-direction: row;
 }
-.srv{
+
+.srv {
     background-color: #c09067;
     border: #614132 15px solid;
     max-width: 300px;
 }
-.srv h2{
+
+.srv h2 {
     text-align: center;
     text-decoration: underline beige;
     font-size: xx-large;
@@ -88,13 +105,15 @@ nav ul li a:hover:after {
     color: beige;
     margin-left: 15px;
 }
-.srv img{
+
+.srv img {
     border-top: #402522 5px solid;
     border-bottom: #402522 5px solid;
 }
-.srv p{
+
+.srv p {
     margin-left: 5px;
-    font-size:larger;
+    font-size: larger;
     padding: 2px;
     padding: 15px;
     font-size: x-large;

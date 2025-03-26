@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,16 +15,17 @@
     <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
     <link rel="manifest" href="icon/site.webmanifest" />
 </head>
+
 <body>
     <header>
         <div class="container">
             <nav>
-                <img src="/img/logod.png" class="logo">
+                <a href="index.html"><img src="/img/logod.png" class="logo"></a>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about-me.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -44,13 +46,35 @@
 
             <label for="message">Message</label>
             <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
-        
+
             <input class="btn" type="submit" value="Send">
 
             <input type="hidden" name="_next" value="https://chafitita-domain.web.app/contact.html">
             <input type="hidden" name="_captcha" value="false">
         </div>
     </form>
+    <footer>
+        <a target="_blank" href="https://www.youtube.com/watch?v=Fob0RFK_z0Q"><svg xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M22 5h1v1h-1zm0-2h1v1h-1zm-1 2v1h1v1h-1v5h-1v2h-1v2h-1v1h-1v1h-1v1h-2v1h-3v1H4v-1H2v-1H1v-1h2v1h3v-1h1v-1H5v-1H4v-1H3v-1h2v-1H3v-1H2v-2h2V9H3V8H2V4h1v1h1v1h1v1h2v1h3v1h2V5h1V4h1V3h5v1h3v1z" />
+                </svg></a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=1SB5lMyPmuk"><svg xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M22 2V1H2v1H1v20h1v1h20v-1h1V2zm-9 10v8h-3V9h3v1h1V9h4v1h1v10h-3v-8zM4 8V5h3v3zm3 1v11H4V9z" />
+                </svg></a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=fzDZrPZ8s5c"><svg xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M23 9v6h-1v2h-1v2h-1v1h-1v1h-1v1h-2v1h-1v-5h-1v-1h1v-1h2v-1h1v-1h1V9h-1V6h-2v1h-1v1h-1V7h-4v1H9V7H8V6H6v3H5v5h1v1h1v1h2v2H7v-1H6v-1H4v1h1v2h1v1h3v3H8v-1H6v-1H5v-1H4v-1H3v-2H2v-2H1V9h1V7h1V5h1V4h1V3h2V2h2V1h6v1h2v1h2v1h1v1h1v2h1v2z" />
+                </svg></a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=He7dSGhyeHA"><svg xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M22 11V8h-1V6h-1V5h-2V4h-3v1H9V4H6v1H4v1H3v2H2v3H1v7h2v1h2v1h2v-2H6v-1h2v1h1v1h6v-1h1v-1h2v1h-1v2h2v-1h2v-1h2v-7ZM9 15H7v-1H6v-2h1v-1h2v1h1v2H9Zm9-1h-1v1h-2v-1h-1v-2h1v-1h2v1h1Z" />
+                </svg></a>
+    </footer>
 </body>
 <script type="module">
     // Import the functions you need from the SDKs you need
@@ -75,4 +99,5 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
   </script>
+
 </html>

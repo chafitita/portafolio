@@ -1,35 +1,44 @@
-header{
+header {
     width: 100%;
     color: beige;
-    height: 25%; 
+    height: 25%;
     background-image: url(/img/origbig.png);
     background-size: cover;
     background-position: top;
+    text-shadow: 2px 4px 2px black;
+    border-bottom: #614132 15px solid;
 }
-.container{
+
+.container {
     padding: 10px 2.5%;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.logo{
+
+.logo {
     width: 120px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
-    list-style: none;;
+    list-style: none;
+    ;
     margin: 10px 30px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: beige;
     font-size: 18px;
     position: relative;
 }
-nav ul li a::after{
+
+nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
@@ -38,11 +47,56 @@ nav ul li a::after{
     left: 0;
     bottom: -6px;
     transition: steps(3) 0.5s;
-}nav ul li a:hover:after{
+}
+
+nav ul li a:hover:after {
     width: 100%;
 }
+
 /* --------------------------------end-header----------------------------- */
-body{
+body {
     padding: 0;
     margin: 0;
+    background-image: url(../img/flores-128.png);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #614132;
+    padding: 5px;
+    gap: 30px;
+}
+
+a {
+    color: white;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    box-sizing: border-box;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.box {
+    padding: 10px;
+    font-size: x-large;
+    background-color: #c09067;
+    border: #614132 15px solid;
+    color: beige;
+}
+
+h1 {
+    background-color: #614132;
+    border: 15px #402522 solid;
+    border-width: 15px 0;
+    font-size: xx-large;
+    text-align: center;
+    color: beige
 }
