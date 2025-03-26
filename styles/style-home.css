@@ -8,7 +8,7 @@ body{
     padding: 0;
     margin: 0;
     color: beige;
-    background-image: url(./img/origbig.png);
+    background-image: url(/img/origbig.png);
     background-size: cover;
     background-position: top;
 }
@@ -16,7 +16,7 @@ header{
     width: 100%;
     color: beige;
     height: 25%; 
-    background-image: url(./img/origbig.png);
+    background-image: url(/img/origbig.png);
     background-size: cover;
     background-position: top;
 }
