@@ -14,6 +14,7 @@ body{
 }
 header{
     width: 100%;
+    color: beige;
     height: 25%; 
     background-image: url(./img/origbig.png);
     background-size: cover;
@@ -33,12 +34,12 @@ nav{
 }
 nav ul li{
     display: inline-block;
-    list-style: none;
+    list-style: none;;
     margin: 10px 30px;
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: beige;
     font-size: 18px;
     position: relative;
 }

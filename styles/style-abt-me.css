@@ -92,13 +92,12 @@ nav ul li a::after{
     background-color: #614132;
     border-radius: 10%;
     border: #402522 5px solid;
-    margin-top: 5%;
+    margin-top: 2.5px;
     min-width: 20%;
     max-width: 25%;
 }
 section{
     flex: 1;
-    padding: 20px;
     color: beige;
 }
 section ul li{
@@ -106,14 +105,16 @@ section ul li{
     padding-left: 10px;
 }
 section ul li p{
+    margin-left: 5px;
     font-size:larger;
     padding: 2px;
-    text-decoration: underline bisque;
+    padding: 15px;
+    font-size: x-large;
 }
 section h1{
     font-weight: 800;
     color: beige;
-    opacity: 80%;
-    text-decoration: underline black;
     margin-left: 15px;
+    text-align: center;
+    text-decoration: underline beige;
 }

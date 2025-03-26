@@ -78,12 +78,24 @@ nav ul li a:hover:after {
 .srv{
     background-color: #c09067;
     border: #614132 15px solid;
+    max-width: 300px;
 }
 .srv h2{
     text-align: center;
     text-decoration: underline beige;
+    font-size: xx-large;
+    font-weight: 800;
+    color: beige;
+    margin-left: 15px;
 }
 .srv img{
     border-top: #402522 5px solid;
     border-bottom: #402522 5px solid;
+}
+.srv p{
+    margin-left: 5px;
+    font-size:larger;
+    padding: 2px;
+    padding: 15px;
+    font-size: x-large;
 }
