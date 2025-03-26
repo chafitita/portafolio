@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/style-home.css">
+    <title>Portfolio</title>
 
-    <title>Home</title>
+    <link rel="stylesheet" href="styles/style-portfolio.css">
 
+    <!-- ---------------icon------------------------- -->
     <link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
     <link rel="shortcut icon" href="icon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
     <link rel="manifest" href="icon/site.webmanifest" />
 </head>
-
 <body>
     <header>
         <div class="container">
@@ -31,12 +30,28 @@
             </nav>
         </div>
     </header>
-    <section class="greetings">
-        <p>Game developer/Web designer</p>
-        <h1>Hello, I'm Chafitita. <br> Welcome to my domain. <br> Feel free to browse the interesting sections of these lands.</h1>
-    </section>
-</body>
 
+    <div class="contenedor">
+        <h1>My projects</h1>
+        <section class="box">
+            <h2>NumberBox</h2>
+            <p>NumberBox is a desktop/mobile app that allows users to have complete access to all the series in the world, regardless of platform, language, release year, etc. It allows users to save, in a personal public profile, the series they liked, watched, and are on their watch list, give them a rating, and, most interestingly, write a review that anyone can read. This application is designed to be useful when searching for and deciding which series to watch, since the ratings and reviews are publicly available, without taking into account reviews and critics' scores.</p>
+        </section>
+        <section class="box">
+            <h2>Devalua2</h2>
+            <p>Devalua2 is a website that calculates the updated value of any amount in Argentine pesos. Enter an amount, a start date, and an end date to see how inflation has affected its value.</p>
+        </section>
+        <section class="box">
+            <h2>Alucard history</h2>
+            <p>Alucard History is a point-and-click web game in the style of Castellania. The story of our protagonist, Facha, is gradually told in a medieval fantasy world in visual novel format. In this game, you can make decisions that affect the final outcome of the story. There are five endings, more than 12 characters, and a duration of approximately 4 hours.</p>
+        </section>
+        <section class="box">
+            <h2>A clicker!</h2>
+            <p>As its name suggests, "A Clicker!" is a web-based game that involves clicking the screen to earn points and redeeming those points for upgrades. Each click adds more points. It's an endless experience with the option to play in AFK mode. It's ideal for competing with your friends to see who can get the highest score.</p>
+        </section>
+    </div>
+
+</body>
 <script type="module">
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
@@ -60,5 +75,4 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
   </script>
-
 </html>
