@@ -1,6 +1,6 @@
 # portafolio
  tp1-Desarrollo
-  https://chafitita-domain.web.app/
+  https://chafitita-lands.netlify.app/
  Observaciones y aclaraciones:
 En la seccion about-me el .gif representa la imagen del dueño del portafolio, 
 como no se podia poner informacion personal decidi dejarlo como gif.
