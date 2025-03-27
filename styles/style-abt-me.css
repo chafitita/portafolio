@@ -159,3 +159,39 @@ section h1 {
     text-align: center;
     text-decoration: underline beige;
 }
+
+@media(max-width: 640px) {
+    a{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    ul li{
+        flex-wrap: wrap;
+        text-align: left;
+    }
+    .contenedor{
+        flex-direction: column;
+        min-width: fit-content;
+        min-height: fit-content;
+    }
+    .cajita{
+        min-width: fit-content;
+    }
+    section ul {
+        margin: 0px;
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: flex-start;
+    }
+    img{
+        max-inline-size: 100%;
+    }
+}

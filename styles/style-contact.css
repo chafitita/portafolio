@@ -87,9 +87,8 @@ form {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     border: 10px #402522 solid;
-    ;
     text-align: center;
-    width: 340px;
+    width: 70%;
     background-color: #614132;
 }
 
@@ -141,14 +140,30 @@ input.btn:hover {
     color: black;
 }
 
-@media(max-width: 991px) {
+@media(max-width: 640px) {
+    a{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
     body {
         padding: 20px;
+    }
+    header{
+        width: 100vw;
     }
 
     form {
         padding: 30px 15px;
-        width: 100px;
+        width: 90%;
     }
 
     input {
