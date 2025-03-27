@@ -18,6 +18,13 @@
     color: #d9c980;
 }
 
+.pixelify-sans{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -25,7 +32,7 @@ body {
     background-image: url(/img/origbig.png);
     background-size: cover;
     background-position: top;
-    text-shadow: 2px 4px 2px black;
+    text-shadow: 2px 4px 15px black;
 }
 footer{
     display: flex;

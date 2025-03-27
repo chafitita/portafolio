@@ -111,7 +111,9 @@ label {
     flex-direction: column;
     text-align: left;
 }
-
+textarea{
+    resize: none;
+}
 input,
 textarea {
     border-radius: 5px;
@@ -127,7 +129,7 @@ textarea::placeholder {
 
 .btn {
     font-size: 16px;
-    color: beige;
+    color: black;
     border: 0;
     border-radius: 15px;
     margin-top: 10px;
