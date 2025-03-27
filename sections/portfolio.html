@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/style-abt-me.css">
+    <title>Portfolio</title>
 
-    <title>About Me</title>
+    <link rel="stylesheet" href="../styles/style-portfolio.css">
+
+    <!-- ---------------icon------------------------- -->
     <link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
     <link rel="shortcut icon" href="icon/favicon.ico" />
@@ -19,9 +21,9 @@
     <header>
         <div class="container">
             <nav>
-                <a href="index.html"><img src="/img/logod.png" class="logo"></a>
+                <a href="../index.html"><img src="/img/logod.png" class="logo"></a>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="about-me.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
@@ -31,68 +33,39 @@
         </div>
     </header>
 
-    <section class="abt-me">
-        <div class="contenedor">
-            <img src="/img/nn-profile-picture.gif">
-            <div class="about-text">
-                <h1>About me</h1>
-                <p>
-                    Hi, I'm a game and web developer excited to learn and continue developing in this incredible world
-                    of programming and development. I'm thrilled with the idea of ​​making people's dreams and ideas a
-                    reality, which is why I believe it's very important to listen to and learn from users. I hope to see
-                    you soon!
-                </p>
-            </div>
-        </div>
-    </section>
+
+    <h1>My projects</h1>
     <div class="contenedor">
-        <section class="cajita">
-            <h1>Skills</h1>
-            <p>
-                <ul>
-                    <li>
-                        <h3>Game developer</h3>
-                        <p>I have programming, design and sound skills for creating
-                            video games.</p>
-                    </li>
-                    <li>
-                        <h3>Web designer</h3>
-                        <p>I have skills in managing databases such as MySQL, in
-                            addition to programming in JavaScript, skills that help me when creating responsive, efficient
-                            and attractive web pages.</p>
-                    </li>
-                    <li>
-                        <h3>UX/UI</h3>
-                        <p>I have creative and design skills, good communication with clients,
-                            and I am a good project leader, essential skills for good UI/UX development.</p>
-                    </li>
-                </ul>
-            </p>
+        <section class="box">
+            <h2>NumberBox</h2>
+            <p>NumberBox is a desktop/mobile app that allows users to have complete access to all the series in the
+                world, regardless of platform, language, release year, etc. It allows users to save, in a personal
+                public profile, the series they liked, watched, and are on their watch list, give them a rating, and,
+                most interestingly, write a review that anyone can read. This application is designed to be useful when
+                searching for and deciding which series to watch, since the ratings and reviews are publicly available,
+                without taking into account reviews and critics' scores.</p>
         </section>
-        <section class="cajita">
-            <h1>Experience</h1>
-            <p>
-                <ul>
-                    <li>2021-2022<br>Jr programmer in Vampire Survivors development</li>
-                    <li>2024-2024<br>Jr programmer in Balatro development</li>
-                    <li>2019-2020<br>Jr programmer in Factorio development</li>
-                    <li>2020-2023<br>Jr designer in MercadoLibre Arg</li>
-                    <li>2023-2024<br>Freelancer for Google LLC</li>
-                </ul>
-            </p>
+        <section class="box">
+            <h2>Devalua2</h2>
+            <p>Devalua2 is a website that calculates the updated value of any amount in Argentine pesos. Enter an
+                amount, a start date, and an end date to see how inflation has affected its value.</p>
         </section>
-        <section class="cajita">
-            <h1>Education</h1>
-            <p>
-                <ul>
-                    <li><span>2022</span><br>I received my degree for a course taken at MIT on "Physics of Video Games"
-                    </li>
-                    <li><span>2023-Current</span><br>I'm studying information systems engineering at the University of
-                        Waterloo.</li>
-                </ul>
-            </p>
+        <section class="box">
+            <h2>Alucard history</h2>
+            <p>Alucard History is a point-and-click web game in the style of Castellania. The story of our protagonist,
+                Facha, is gradually told in a medieval fantasy world in visual novel format. In this game, you can make
+                decisions that affect the final outcome of the story. There are five endings, more than 12 characters,
+                and a duration of approximately 4 hours.</p>
+        </section>
+        <section class="box">
+            <h2>A clicker!</h2>
+            <p>As its name suggests, "A Clicker!" is a web-based game that involves clicking the screen to earn points
+                and redeeming those points for upgrades. Each click adds more points. It's an endless experience with
+                the option to play in AFK mode. It's ideal for competing with your friends to see who can get the
+                highest score.</p>
         </section>
     </div>
+
     <footer>
         <a target="_blank" href="https://www.youtube.com/watch?v=Fob0RFK_z0Q"><svg xmlns="http://www.w3.org/2000/svg"
                 width="24" height="24" viewBox="0 0 24 24">
@@ -115,8 +88,8 @@
                     d="M22 11V8h-1V6h-1V5h-2V4h-3v1H9V4H6v1H4v1H3v2H2v3H1v7h2v1h2v1h2v-2H6v-1h2v1h1v1h6v-1h1v-1h2v1h-1v2h2v-1h2v-1h2v-7ZM9 15H7v-1H6v-2h1v-1h2v1h1v2H9Zm9-1h-1v1h-2v-1h-1v-2h1v-1h2v1h1Z" />
                 </svg></a>
     </footer>
-</body>
 
+</body>
 <script type="module">
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
