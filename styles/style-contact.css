@@ -69,7 +69,8 @@ body {
     flex-direction: column;
     gap: 30px;
 }
-footer{
+
+footer {
     align-self: normal;
     display: flex;
     align-items: center;
@@ -78,7 +79,8 @@ footer{
     padding: 5px;
     gap: 30px;
 }
-a{
+
+a {
     color: white;
 }
 
@@ -110,9 +112,11 @@ label {
     flex-direction: column;
     text-align: left;
 }
-textarea{
+
+textarea {
     resize: none;
 }
+
 input,
 textarea {
     border-radius: 5px;
@@ -141,23 +145,25 @@ input.btn:hover {
 }
 
 @media(max-width: 640px) {
-    a{
+    a {
         display: flex;
         width: 100%;
         justify-content: center;
     }
-    ul{
+
+    ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         padding-left: 0;
         padding-right: 0;
     }
-    
+
     body {
         padding: 20px;
     }
-    header{
+
+    header {
         width: 100vw;
     }
 

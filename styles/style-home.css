@@ -18,7 +18,7 @@
     color: #d9c980;
 }
 
-.pixelify-sans{
+.pixelify-sans {
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -34,7 +34,8 @@ body {
     background-position: top;
     text-shadow: 2px 4px 15px black;
 }
-footer{
+
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +43,8 @@ footer{
     padding: 5px;
     gap: 30px;
 }
-a{
+
+a {
     color: white;
 }
 
@@ -112,12 +114,13 @@ nav ul li a:hover:after {
 }
 
 @media(max-width: 640px) {
-    a{
+    a {
         display: flex;
         width: 100%;
         justify-content: center;
     }
-    ul{
+
+    ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

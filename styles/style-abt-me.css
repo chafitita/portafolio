@@ -18,7 +18,8 @@ footer {
 a {
     color: white;
 }
-img{
+
+img {
     max-inline-size: 100%;
 }
 
@@ -164,37 +165,43 @@ section h1 {
 }
 
 @media(max-width: 640px) {
-    a{
+    a {
         display: flex;
         width: 100%;
         justify-content: center;
     }
-    ul{
+
+    ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         padding-left: 0;
         padding-right: 0;
     }
-    ul li{
+
+    ul li {
         flex-wrap: wrap;
         text-align: left;
     }
-    .contenedor{
+
+    .contenedor {
         flex-direction: column;
         min-width: fit-content;
         min-height: fit-content;
     }
-    .cajita{
+
+    .cajita {
         min-width: fit-content;
     }
+
     section ul {
         margin: 0px;
         flex-wrap: wrap;
         text-align: left;
         justify-content: flex-start;
     }
-    img{
+
+    img {
         max-inline-size: 100%;
     }
 }

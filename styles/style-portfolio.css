@@ -100,20 +100,23 @@ h1 {
     text-align: center;
     color: beige
 }
+
 @media(max-width: 640px) {
-    a{
+    a {
         display: flex;
         width: 100%;
         justify-content: center;
     }
-    ul{
+
+    ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         padding-left: 0;
         padding-right: 0;
     }
-    .contenedor{
+
+    .contenedor {
         grid-auto-flow: row;
         justify-content: center;
     }
