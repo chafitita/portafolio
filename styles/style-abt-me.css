@@ -18,6 +18,9 @@ footer {
 a {
     color: white;
 }
+img{
+    max-inline-size: 100%;
+}
 
 /* ------------------------------header---------------------------------- */
 header {
